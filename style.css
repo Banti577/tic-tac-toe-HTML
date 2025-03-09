@@ -67,15 +67,15 @@ h1 {
 
 .board {
     display: grid;
-    grid-template-columns: repeat(3, 120px);
-    grid-template-rows: repeat(3, 120px);
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
     gap: 10px;
     margin-top: 20px;
 }
 
 .cell {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, 0.5);
