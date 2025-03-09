@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="turn-selector-container">
+            <label for="turn">Choose Starting Player:</label>
+            <select id="turn" class="turn-selector" onchange="setStartingPlayer()">
+                <option value="x">select</option>
+                <option value="x">Player X</option>
+                <option value="o">Player O</option>
+               
+            </select>
+        </div>
+        <div class="result"></div>
+        <div class="display">Please! First select Player</div>
+        <div class="board">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="controls">
+            <button class="button" onclick="resetGame()">Reset</button>
+            <button class="button" onclick="startNewGame()">Start New Game</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
